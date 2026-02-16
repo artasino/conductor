@@ -24,7 +24,6 @@
     excluded-positions = <
         27 // ,
         28 // .
-        29 // -
     >;
     require-prior-idle-ms = <200>;
     // トラボ誤爆防止
