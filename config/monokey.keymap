@@ -18,14 +18,29 @@
     combos {
         compatible = "zmk,combos";
 
-        scroll {
-            bindings = <&mo 5>;
-            key-positions = <17 18>;
-        };
-
         mb3 {
             bindings = <&mkp MB3>;
             key-positions = <27 28>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
+
+        undo {
+            bindings = <&kt RC(Z)>;
+            key-positions = <20 21>;
+        };
+
+        Redo {
+            bindings = <&kt LS(LC(Z))>;
+            key-positions = <21 22>;
+        };
+
+        del {
+            bindings = <&kt DELETE>;
+            key-positions = <6 7>;
         };
     };
 
