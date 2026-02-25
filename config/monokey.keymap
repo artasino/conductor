@@ -29,18 +29,23 @@
         };
 
         undo {
-            bindings = <&kt RC(Z)>;
+            bindings = <&kp LC(Z)>;
             key-positions = <20 21>;
         };
 
         Redo {
-            bindings = <&kt LS(LC(Z))>;
+            bindings = <&kp LS(LC(Z))>;
             key-positions = <21 22>;
         };
 
         del {
-            bindings = <&kt DELETE>;
-            key-positions = <6 7>;
+            bindings = <&kp DELETE>;
+            key-positions = <8 9>;
+        };
+
+        underbar {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <29 28>;
         };
     };
 
