@@ -33,7 +33,7 @@
             key-positions = <20 21>;
         };
 
-        Redo {
+        redo {
             bindings = <&kp LS(LC(Z))>;
             key-positions = <21 22>;
         };
