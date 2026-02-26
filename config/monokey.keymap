@@ -44,7 +44,7 @@
         };
 
         underbar {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp INTERNATIONAL_1>;
             key-positions = <29 28>;
         };
     };
