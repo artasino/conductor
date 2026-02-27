@@ -47,6 +47,11 @@
             bindings = <&kp INTERNATIONAL_1>;
             key-positions = <29 28>;
         };
+
+        alt+tab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <1 2>;
+        };
     };
 
     behaviors {
