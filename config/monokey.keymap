@@ -23,11 +23,6 @@
             key-positions = <27 28>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <0 1>;
-        };
-
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <20 21>;
@@ -46,11 +41,6 @@
         underbar {
             bindings = <&kp INTERNATIONAL_1>;
             key-positions = <29 28>;
-        };
-
-        alt+tab {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <1 2>;
         };
     };
 
